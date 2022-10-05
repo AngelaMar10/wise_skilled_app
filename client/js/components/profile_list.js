@@ -17,10 +17,10 @@ function renderProfileList() {
           <span onClick="deleteProfile(event)">delete</span>
         </header>
         <p>${profile.skills_summary}</p>
-        <p>${profile.location}</p>
-        <p>${profile.rate}</p>
-        <p>${profile.contact}</p>
         <img src="${profile.profile_img}">
+        <h3>${profile.location}</h3>
+        <h3>${profile.rate}</h3>
+        <h3>${profile.contact}</h3>
 
       </section>
     `).join('')
